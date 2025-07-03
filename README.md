@@ -1,7 +1,7 @@
 # PolymorphShield
 
 A powerful AI-powered code obfuscation tool that supports both Python and JavaScript files. PolymorphShield provides advanced obfuscation techniques to protect your source code from reverse engineering.
-
+link to website-https://polymorphshield.netlify.app/
 ## Features
 
 ### Multi-Language Support
@@ -69,19 +69,6 @@ src/
 2. **UI Components**: Add new components in the `components/` directory
 3. **Language Support**: Update file validation and obfuscation logic
 4. **Configuration Options**: Extend the `ObfuscationConfig` interface
-
-### Deployment Options
-
-#### Netlify (Recommended)
-1. Connect your repository to Netlify
-2. Set build command: `npm run build`
-3. Set publish directory: `dist`
-4. Deploy automatically on git push
-
-#### Manual Deployment
-1. Run `npm run build` to create production files
-2. Upload the `dist/` folder to your web server
-3. Configure your server to serve the `index.html` for all routes
 
 #### Environment Variables
 - `VITE_OPENAI_API_KEY`: OpenAI API key for AI mutation features
